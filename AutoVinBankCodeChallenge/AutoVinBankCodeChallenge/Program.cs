@@ -8,15 +8,16 @@ namespace AutoVinBankCodeChallenge
         static void Main(string[] args)
         {
             ////Initializing
-            Bank bankOfAmerica = new Bank("Bank of America");
+            Bank bankOfAmerica = new("Bank of America");
 
-            var testInvestAccount = new InvestmentAccount("TestInvestIndividual",true, false);
+            InvestmentAccount testInvestAccount = new("TestInvestIndividual", true);
 
             bankOfAmerica.InvestmentAccounts.Add(testInvestAccount);
 
             var testIndividualInvestAccount = bankOfAmerica.InvestmentAccounts.Where(w => w.Owner == "TestInvestIndividual").FirstOrDefault();
 
             Console.WriteLine(testIndividualInvestAccount.Owner);
+
             Console.WriteLine(testIndividualInvestAccount.IndividualAccountBalance);
 
             testInvestAccount.Deposit(testIndividualInvestAccount.isIndividual, 8254);
@@ -25,19 +26,16 @@ namespace AutoVinBankCodeChallenge
 
             testIndividualInvestAccount.CheckingAccount.Deposit(1500);
 
-
             testIndividualInvestAccount.Transfer(testIndividualInvestAccount, testIndividualInvestAccount.CheckingAccount, 600, "Checking");
 
 
 
 
 
-
-
-
-            InvestmentAccount testInvest = new InvestmentAccount("TestInvestCorporate", false, true);
+            InvestmentAccount testInvest = new("TestInvestCorporate", false);
 
             bankOfAmerica.InvestmentAccounts.Add(testInvest);
+
             var testCorporateInvestAccount = bankOfAmerica.InvestmentAccounts.Where(w => w.Owner == "TestInvestCorporate").FirstOrDefault();
 
             Console.WriteLine($"Corporate account balance is: {testCorporateInvestAccount.CorporateAccountBalance}");
@@ -45,6 +43,8 @@ namespace AutoVinBankCodeChallenge
             testCorporateInvestAccount.Deposit(testCorporateInvestAccount.isIndividual,5000);
 
             testCorporateInvestAccount.Transfer(testCorporateInvestAccount, testCorporateInvestAccount.CheckingAccount, 450, "Checking");
+
+            testCorporateInvestAccount.Withdrawal(testCorporateInvestAccount.isIndividual, 780);
 
         }
     }

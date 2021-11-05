@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tman2\\Documents\\Code Challenges\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj": {}
+    "C:\\Users\\tman2\\Documents\\GitHub\\BankExercise\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tman2\\Documents\\Code Challenges\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj": {
+    "C:\\Users\\tman2\\Documents\\GitHub\\BankExercise\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tman2\\Documents\\Code Challenges\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\tman2\\Documents\\GitHub\\BankExercise\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj",
         "projectName": "AutoVinBankCodeChallenge",
-        "projectPath": "C:\\Users\\tman2\\Documents\\Code Challenges\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj",
+        "projectPath": "C:\\Users\\tman2\\Documents\\GitHub\\BankExercise\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge.csproj",
         "packagesPath": "C:\\Users\\tman2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tman2\\Documents\\Code Challenges\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\obj\\",
+        "outputPath": "C:\\Users\\tman2\\Documents\\GitHub\\BankExercise\\AutoVinBankCodeChallenge\\AutoVinBankCodeChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

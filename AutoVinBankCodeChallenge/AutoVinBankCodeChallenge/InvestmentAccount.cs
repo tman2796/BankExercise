@@ -21,7 +21,7 @@ namespace AutoVinBankCodeChallenge
             Owner = owner;
         }
 
-        public InvestmentAccount(string owner, bool individual, bool corporate)
+        public InvestmentAccount(string owner, bool individual)
         {
             Owner = owner;
             isIndividual = individual;
