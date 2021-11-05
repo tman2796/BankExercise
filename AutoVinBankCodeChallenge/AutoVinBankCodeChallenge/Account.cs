@@ -31,14 +31,14 @@ namespace AutoVinBankCodeChallenge
                     checkingAccount.CheckingAccountBalance += transferAmount;
                     investAccount.IndividualAccountBalance -= transferAmount;
                     Console.WriteLine($"Successfully transferred {transferAmount} from individual investment account to checking. New Checking balance is " +
-                        $"{checkingAccount.CheckingAccountBalance} and new balance for individual investment account is {investAccount.IndividualAccountBalance}");
+                        $"{checkingAccount.CheckingAccountBalance} and new balance for individual investment account is {investAccount.IndividualAccountBalance}\n");
                 }
                 else if(investAccount.CorporateAccountBalance >= transferAmount)
                 {
                     checkingAccount.CheckingAccountBalance += transferAmount;
                     investAccount.CorporateAccountBalance -= transferAmount;
                     Console.WriteLine($"Successfully transferred {transferAmount} from corporate investment account to checking. New Checking balance is " +
-                        $"{checkingAccount.CheckingAccountBalance} and new balance for corporate investment account is {investAccount.CorporateAccountBalance}");
+                        $"{checkingAccount.CheckingAccountBalance} and new balance for corporate investment account is {investAccount.CorporateAccountBalance} \n");
                 }
             }
             if (transferToAccount.Trim() == "Investment")
@@ -48,14 +48,14 @@ namespace AutoVinBankCodeChallenge
                     checkingAccount.CheckingAccountBalance -= transferAmount;
                     investAccount.IndividualAccountBalance += transferAmount;
                     Console.WriteLine($"Successfully transferred {transferAmount} from checking account to Individual investment account. " +
-                        $"New individual investment account balance is {investAccount.IndividualAccountBalance} and new checking balance is {checkingAccount.CheckingAccountBalance}");
+                        $"New individual investment account balance is {investAccount.IndividualAccountBalance} and new checking balance is {checkingAccount.CheckingAccountBalance} \n");
                 }
                 else if(checkingAccount.CheckingAccountBalance >= transferAmount)
                 {
                     checkingAccount.CheckingAccountBalance -= transferAmount;
                     investAccount.CorporateAccountBalance += transferAmount;
                     Console.WriteLine($"Successfully transferred {transferAmount} from checking account to Individual investment account. " +
-                        $"New individual investment account balance is {investAccount.CorporateAccountBalance} and new checking balance is {checkingAccount.CheckingAccountBalance}");
+                        $"New individual investment account balance is {investAccount.CorporateAccountBalance} and new checking balance is {checkingAccount.CheckingAccountBalance} \n");
                 }
             }
         }

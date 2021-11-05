@@ -35,12 +35,12 @@ namespace AutoVinBankCodeChallenge
             if (isIndividualAccount)
             {
                 IndividualAccountBalance += depositAmount;
-                Console.WriteLine($"Deposited {depositAmount} successfully into individual investment account - new balance is {IndividualAccountBalance}");
+                Console.WriteLine($"Deposited {depositAmount} successfully into individual investment account - new balance is {IndividualAccountBalance} \n");
             }
             if (!isIndividualAccount)
             {
                 CorporateAccountBalance += depositAmount;
-                Console.WriteLine($"Deposited {depositAmount} successfully into Corporate investment account - new balance is {CorporateAccountBalance}");
+                Console.WriteLine($"Deposited {depositAmount} successfully into Corporate investment account - new balance is {CorporateAccountBalance} \n");
             }
 
         }
@@ -54,7 +54,7 @@ namespace AutoVinBankCodeChallenge
                     if (withdrawalAmount < CorporateAccountBalance)
                     {
                         CorporateAccountBalance -= withdrawalAmount;
-                        Console.WriteLine($"Successfully withdrew {withdrawalAmount} and new Corporate investment account balance is {CorporateAccountBalance}");
+                        Console.WriteLine($"Successfully withdrew {withdrawalAmount} and new Corporate investment account balance is {CorporateAccountBalance} \n");
                     }
                 }
                 if (withdrawalAmount < 500 && isIndividual)
@@ -62,7 +62,7 @@ namespace AutoVinBankCodeChallenge
                     if (isIndividualAccount && withdrawalAmount <= IndividualAccountBalance)
                     {
                         IndividualAccountBalance -= withdrawalAmount; 
-                        Console.WriteLine($"Successfully withdrew {withdrawalAmount} and new Individual investment account balance is {IndividualAccountBalance}");
+                        Console.WriteLine($"Successfully withdrew {withdrawalAmount} and new Individual investment account balance is {IndividualAccountBalance} \n");
                     }
                     else
                     {

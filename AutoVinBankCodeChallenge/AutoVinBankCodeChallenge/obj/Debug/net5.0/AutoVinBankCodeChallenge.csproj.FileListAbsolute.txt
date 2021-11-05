@@ -14,3 +14,19 @@ C:\Users\tman2\Documents\Code Challenges\AutoVinBankCodeChallenge\AutoVinBankCod
 C:\Users\tman2\Documents\Code Challenges\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\ref\AutoVinBankCodeChallenge.dll
 C:\Users\tman2\Documents\Code Challenges\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.pdb
 C:\Users\tman2\Documents\Code Challenges\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.genruntimeconfig.cache
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.exe
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.deps.json
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.runtimeconfig.json
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.runtimeconfig.dev.json
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.dll
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\ref\AutoVinBankCodeChallenge.dll
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\bin\Debug\net5.0\AutoVinBankCodeChallenge.pdb
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.csproj.AssemblyReference.cache
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.AssemblyInfoInputs.cache
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.AssemblyInfo.cs
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.csproj.CoreCompileInputs.cache
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.dll
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\ref\AutoVinBankCodeChallenge.dll
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.pdb
+C:\Users\tman2\Documents\GitHub\BankExercise\AutoVinBankCodeChallenge\AutoVinBankCodeChallenge\obj\Debug\net5.0\AutoVinBankCodeChallenge.genruntimeconfig.cache

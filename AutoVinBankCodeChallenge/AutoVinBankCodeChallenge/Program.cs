@@ -7,7 +7,6 @@ namespace AutoVinBankCodeChallenge
     {
         static void Main(string[] args)
         {
-            ////Initializing
             Bank bankOfAmerica = new("Bank of America");
 
             InvestmentAccount testInvestAccount = new("TestInvestIndividual", true);
@@ -29,6 +28,8 @@ namespace AutoVinBankCodeChallenge
             testIndividualInvestAccount.Transfer(testIndividualInvestAccount, testIndividualInvestAccount.CheckingAccount, 600, "Checking");
 
 
+            Console.WriteLine($"{testIndividualInvestAccount.Owner} \n");
+            Console.WriteLine($"{testIndividualInvestAccount.IndividualAccountBalance} \n");
 
 
 
@@ -46,6 +47,22 @@ namespace AutoVinBankCodeChallenge
 
             testCorporateInvestAccount.Withdrawal(testCorporateInvestAccount.isIndividual, 780);
 
+            Console.WriteLine($"{testCorporateInvestAccount.Owner} \n");
+            Console.WriteLine($"{testCorporateInvestAccount.CorporateAccountBalance} \n");
+
+            CheckingAccount testChecking = new CheckingAccount("TestChecking");
+            bankOfAmerica.CheckingAccounts.Add(testChecking);
+
+            var testCheckingAccount = bankOfAmerica.CheckingAccounts.Where(w => w.Owner == "TestChecking").FirstOrDefault();
+
+            Console.WriteLine($"Checking account balance is: {testCheckingAccount.CheckingAccountBalance}");
+
+            testCheckingAccount.Deposit(1954);
+            testCheckingAccount.Withdrawal(54);
+            testCheckingAccount.Transfer(testCheckingAccount.InvestmentAccount, testCheckingAccount, 150, "Investment");
+            Console.WriteLine($"Checking account owner: {testCheckingAccount.Owner} \n");
+            Console.WriteLine($"Checking account balance is now: {testCheckingAccount.CheckingAccountBalance} \n");
+            Console.WriteLine($"Corporate investment account balance is now: {testCheckingAccount.InvestmentAccount.CorporateAccountBalance} \n");
         }
     }
 }

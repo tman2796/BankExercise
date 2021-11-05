@@ -23,14 +23,14 @@ namespace AutoVinBankCodeChallenge
         public void Deposit(double depositAmount)
         {
             CheckingAccountBalance += depositAmount;
-            Console.WriteLine($"Successfully deposited {depositAmount} into checking account. New balance is {CheckingAccountBalance}");
+            Console.WriteLine($"Successfully deposited {depositAmount} into checking account. New balance is {CheckingAccountBalance} \n");
         }
         public void Withdrawal(double withdrawalAmount)
         {
             if (withdrawalAmount <= CheckingAccountBalance)
             {
                 CheckingAccountBalance -= withdrawalAmount;
-                Console.WriteLine($"Withdrew {withdrawalAmount} and new balance is {CheckingAccountBalance}");
+                Console.WriteLine($"Withdrew {withdrawalAmount} and new balance is {CheckingAccountBalance} \n");
             }
             else
             {
